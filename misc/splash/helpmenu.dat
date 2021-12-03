@@ -1,0 +1,6 @@
+  colr% = 9
+   texts$ = " (C)ontinue"
+   GOSUB showtext
+   PRINT
+   texts$ = " (T)itle"
+   GOSUB showtext

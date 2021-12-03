@@ -1,0 +1,15 @@
+colr% = 15
+ GOSUB title
+ colr% = 11
+ texts$ = " program: Puzzlum Roe"
+ GOSUB showtext
+ texts$ = " version: 2.092.018a"
+ GOSUB showtext
+ texts$ = " edition: Qbasic1.1 Dos16 x86"
+ GOSUB showtext
+ texts$ = " created: 07-20-1997 06:52:00pm"
+ GOSUB showtext
+ texts$ = " copyright 1997, 2021 Tim Keal"
+ GOSUB showtext
+ texts$ = " website: http://puzzlum.net/"
+ GOSUB showtext

@@ -1,0 +1,84 @@
+---=== Puzzlum Roe 2.092.018a "Read Me" ===---
+
+Copyright 1997, 2021 Tim Keal
+
+=== Roe Build "18a" 2021-1109-0929 ===
+
++ rollback all the way to oldest suriving archive.
++ 1:1 port from Qbasic1.1 16bit Ms-Dos to FreeBASIC Win32 x86.
++ added turncounter HUD.
++ added debug item to main menu.
+
+- missing blue backdrop for splash and help screens.
+- need to reimplement screen/sprite scaling.
+- need to reimplement automatic mouse bindings.
+
+=== Roe Build "18a" 2021-1109-1707 ===
+
++ Started work on bulk QBasic BSAVE import tool.
+
++ Ready for testing.
+
++ File Access Binary Write in Read Only mode violation.
+
+=== Roe Build "18a" 2021-1112-1710 ===
+
++ Fixed file access error
+
++ Minor Rollback
+
++ Corrected Frame Colors
+
++ Corrected Screen Scaler
+
+=== Roe Build "18a" 2021-1128-2030 ===
+
++ dropped in place names scripts
++ implemented names system for EXP per Level Up
+
+=== Roe Build "18a" 2021-1129-2041 ===
+
++ dropped in place names scripts for longnames
+
+=== Roe Build "18a" 2021-1129-2231 ===
+
++ applied names scripts to encounter portal
+
++ text is erroneously black
+
+=== Roe Build "18a" 2021-1129-2246 ===
+
++ encounter panel fails to display scripted output
+
++ text color is corrected
+
+=== Roe Build "18a" 2021-1130-0028 ===
+
++ encounter panel glitched (wip)
+
+=== Roe Build "18a" 2021-1130-1500 ===
+
++ 1:1 100 percent ok
+
++ encounter panel scripting fixed
+
+=== Roe Build "18a" 2021-1130-1730 ===
+
++ 1:1 100 percent ok
+
++ encounter/merchant panel scripting fixed
+
+=== Roe Build "18a" 2021-1130-1955 ===
+
++ 1:1 100 percent ok
+
++ map loader now uses scripted map files
+
+(mapping system update.)
+Instead of using the old Roe "*.vds" format, I embedded the old "vds" file contents inside a names_type "*.dat" scripting file.
+
+=== Roe Build "18a" 2021-1130-1955 ===
+
++ 1:1 100 percent ok
+
++ merchant scripting now works

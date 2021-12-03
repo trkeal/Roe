@@ -1,0 +1,17 @@
+PRINT
+ colr% = 9
+ texts$ = " (H)elp"
+ GOSUB showtext
+ PRINT
+ texts$ = " (C)ontinue"
+ GOSUB showtext
+ PRINT
+ texts$ = " (R)estart"
+ GOSUB showtext
+ PRINT
+ texts$ = " (Q)uit"
+ GOSUB showtext
+ PRINT
+ texts$ = " (D)ebug"
+ GOSUB showtext
+ 

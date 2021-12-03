@@ -1,0 +1,7 @@
+stat/count=6
+stat/1/name="hp"
+stat/2/name="ap"
+stat/3/name="dp"
+stat/4/name="mp"
+stat/5/name="sight"
+stat/6/name="scent"
