@@ -1,0 +1,7 @@
+ colr = 11
+ texts$ = " program: Puzzlum Roe"
+ texts$ = " version: 2.092.018a"
+ texts$ = " edition: FreeBASIC Win32 x86"
+ texts$ = " created: 07-20-1997 06:52:00pm"
+ texts$ = " copyright 1997, 2021 Tim Keal"
+ texts$ = " website: http://puzzlum.net/"
