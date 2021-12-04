@@ -1,7 +1,0 @@
-hud/encounter/caption="Encounter"
-hud/encounter/border/x1=17
-hud/encounter/border/y1=5
-hud/encounter/border/x2=40
-hud/encounter/border/y2=23
-hud/encounter/border/fg=12
-hud/encounter/border/bg=4

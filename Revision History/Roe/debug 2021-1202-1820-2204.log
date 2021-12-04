@@ -1,0 +1,11 @@
+C:\ag\Roe 1a\gamedata\names.bas(51) error 42: Variable not declared, open_offest in 'subject = left$( subject, open_offest - 1 ) + sync_names( mid$( subject, open_offset, close_offset - open_offset - len( open_offset ) ), names() ) + mid$( subject, close_offest + len( close_sep ) )'
+C:\ag\Roe 1a\gamedata\names.bas(84) error 42: Variable not declared, subject in 'subject = left$( buffer, instr( 1, buffer, crlf ) - 1 )'
+C:\ag\Roe 1a\gamedata\names.bas(86) error 9: Expected expression, found 'subject' in 'buffer = mid$( buffer, len( subject ) + len( crlf ) + 1 )'
+C:\ag\Roe 1a\gamedata\names.bas(88) error 9: Expected expression, found 'subject' in 'if instr( subject, eq ) > 0 then'
+C:\ag\Roe 1a\gamedata\names.bas(96) error 99: No matching overloaded function, LEFT() in 'names_table( ubound( names_table, 1 ) ).label = left$( subject, instr( subject, eq ) - 1 )'
+C:\ag\Roe 1a\gamedata\names.bas(98) error 9: Expected expression, found 'subject' in 'names_table( ubound( names_table, 1 ) ).value = mid$( subject, instr( subject, eq ) + len( eq ) )'
+C:\ag\Roe 1a\gamedata\names.bas(103) error 3: Expected End-of-Line, found 'subject' in 'subject = buffer'
+C:\ag\Roe 1a\gamedata\names.bas(106) error 9: Expected expression, found 'subject' in 'if instr( subject, eq ) > 0 then'
+C:\ag\Roe 1a\gamedata\names.bas(114) error 99: No matching overloaded function, LEFT() in 'names_table( ubound( names_table, 1 ) ).label = left$( subject, instr( subject, eq ) - 1 )'
+C:\ag\Roe 1a\gamedata\names.bas(116) error 9: Expected expression, found 'subject' in 'names_table( ubound( names_table, 1 ) ).value = mid$( subject, instr( subject, eq ) + len( eq ) )'
+C:\ag\Roe 1a\gamedata\names.bas(116) error 133: Too many errors, exiting
